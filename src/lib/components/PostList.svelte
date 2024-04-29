@@ -10,20 +10,20 @@
   {#each posts as item}
     <a
       href={`blog/${item.slug}`}
-      class="block -mx-3 px-3 py-2 hover:bg-neutral-100"
+      class="block -mx-3 px-3 py-2 hover:bg-neutral-600"
     >
       <div class="mb-0">
-        <div class="text-lg text-black">
+        <div class="text-lg text-[#BBBBBB]">
           {@html item.rendered.title}
-          <ArrowUpRight size={18} class="inline text-neutral-400" />
+          <ArrowUpRight size={18} class="inline text-[#DAA520]" />
         </div>
       </div>
 
       <div class="flex justify-between items-start">
-        <div class="text-sm text-black">
+        <div class="text-sm text-white">
           {formatTime("%B %-d, %Y", item.date)}
         </div>
-        <div class="text-sm text-black">
+        <div class="text-sm text-white">
           {item.tags.join(", ")}
         </div>
       </div>

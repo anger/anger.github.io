@@ -1,18 +1,17 @@
-<footer class="layout-md mt-8 text-lg flex flex-col">
-  <div class="row">
-    <span>Twitter</span>
-    <hr />
-    <a class="link" href="https://twitter.com/pepsipu">@pepsipu</a>
-  </div>
+<footer class="layout-md mt-3 text-lg flex flex-col">
   <div class="row">
     <span>GitHub</span>
     <hr />
-    <a class="link" href="https://github.com/pepsipu">@pepsipu</a>
+    <a class="link" href="https://github.com/anger" target="_blank">@anger</a>
   </div>
   <div class="row">
-    <span>Email</span>
+    <span>Linkedin</span>
     <hr />
-    <a class="link" href="mailto:sh@pepsi.pw">sh@pepsi.pw</a>
+    <a
+      class="link"
+      href="https://www.linkedin.com/in/jaxdunfee/"
+      target="_blank">@jaxdunfee</a
+    >
   </div>
 </footer>
 

@@ -1,9 +1,6 @@
-# pepsipu.github.io
+# jax.dev
 
-this is a fork, see the original author ekzhang
-
-Source code for my [personal website](https://www.pepsipu.com/), hosted on
-GitHub Pages.
+this is the source for my [personal website](https://jax.dev).
 
 This website is powered by [SvelteKit](https://kit.svelte.dev/) and
 [Tailwind CSS](https://tailwindcss.com/). To develop, run:
@@ -12,3 +9,5 @@ This website is powered by [SvelteKit](https://kit.svelte.dev/) and
 $ npm install
 $ npm run dev
 ```
+
+forked from @pepsipu

@@ -1,16 +1,12 @@
 <script lang="ts">
   import { page } from "$app/stores";
-
-  const links = [
-    { name: "???", href: "https://pepsi.pw" },
-    { name: "blog", href: "/blog" },
-  ];
+  import { links } from "$lib/links";
 
   let pageTitle: string | null = null;
   $: {
     const link = links.find(({ href }) => href === $page.url.pathname);
     if (link) {
-      pageTitle = link.name.charAt(0).toUpperCase() + link.name.slice(1);
+      pageTitle = link.name;
     } else {
       pageTitle = null;
     }
@@ -22,8 +18,8 @@
   data-sveltekit-noscroll
   data-sveltekit-preload-code="eager"
 >
-  <h1 class="font-bold text-black text-2xl">
-    <a href="/">Sammy Hajhamid</a>
+  <h1 class="font-bold text-[#DDDDDD] text-2xl">
+    <a href="/">Jax Dunfee</a>
     {#if pageTitle}
       <span class="page-title">
         <span class="text-neutral-400">—</span>
@@ -35,8 +31,8 @@
     {#each links as link (link)}
       <a
         href={link.href}
-        class="hover:text-black transition-colors"
-        class:text-black={$page.url.pathname === link.href}
+        class="hover:text-[#DAA520] transition-colors"
+        class:text-[#DAA520]={$page.url.pathname === link.href}
       >
         {link.name}
       </a>

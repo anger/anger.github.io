@@ -11,7 +11,7 @@
 @layer components {
   .link {
     @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
-    @apply hover:text-black hover:decoration-black transition-colors;
+    @apply hover:text-[#DAA520] hover:decoration-[#DAA520] transition-colors;
     @apply dark:hover:text-white dark:hover:decoration-white;
   }
 
@@ -20,7 +20,7 @@
   }
 
   .heading2 {
-    @apply text-black text-xl font-semibold mb-4;
+    @apply text-[#DAA520] text-xl font-semibold mb-4;
   }
 }
 
@@ -29,11 +29,38 @@ html {
 }
 
 body {
-  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-neutral-700;
+  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-[#BBBBBB] bg-[#282828];
 }
 
 ::selection {
-  @apply bg-neutral-200 dark:bg-neutral-600;
+  @apply bg-neutral-600 dark:bg-neutral-600;
+}
+span.underline-yellow {
+  text-decoration: underline;
+  text-decoration-color: #DAA520;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}
+
+span.underline-orange {
+  text-decoration: underline;
+  text-decoration-color: #f5a623;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}
+
+span.underline-green {
+  text-decoration: underline;
+  text-decoration-color: #42b983;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}
+
+span.underline-red {
+  text-decoration: underline;
+  text-decoration-color: #f36170;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
 }
 
 .dark {

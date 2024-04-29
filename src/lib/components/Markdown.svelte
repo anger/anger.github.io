@@ -5,7 +5,7 @@
   $: html = renderMd(source);
 </script>
 
-<div class="md-output prose">
+<div class="md-output prose prose-invert">
   {@html html}
 </div>
 

@@ -31,12 +31,9 @@
   const getChipStyle = (activeChips: Set<string>, tag: string) => {
     const colors: any = {
       default: {
-        inactive: "cursor-pointer hover:bg-gray-300 text-gray-700 bg-gray-200",
+        inactive:
+          "cursor-pointer hover:bg-neutral-600 text-white hover:outline-dashed outline-1",
         active: "cursor-pointer bg-gray-300 text-gray-700",
-      },
-      notes: {
-        inactive: "cursor-help transition hover:bg-yellow-400 text-white",
-        active: "cursor-help bg-yellow-400 text-white",
       },
     };
 
@@ -47,7 +44,7 @@
 </script>
 
 <Seo
-  title="Sammy Hajhamid – Blog"
+  title="Jax Dunfee · Blog"
   description="My blog on cybersecurity and computer science."
 />
 
@@ -66,7 +63,7 @@
             activeChips = activeChips;
           }}
         >
-          {tag}
+          #{tag}
         </button>
       {/each}
     </div>
