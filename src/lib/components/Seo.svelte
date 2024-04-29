@@ -9,7 +9,7 @@
   <meta name="description" content={description} />
   <meta property="og:title" content={ogTitle ?? title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content="https://jax.dev/assets/images/banner2.png" />
+  <meta property="og:image" content="https://jax.dev/assets/images/me.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta
     content="Jax Dunfee · Cyber Security Engineer & Security Researcher based in the United States"
