@@ -1,6 +1,19 @@
 export const ctfEvents = [
   {
-    name: "SparkCTF",
+    name: "cr3 CTF 2024",
+    desc: "",
+    challenges: [
+      {
+        name: "secretclub",
+        category: "web",
+        href: "https://github.com/cr3mov/cr3ctf-2024/tree/main/challenges/web/secretclub",
+        writeup: "https://github.com/cr3mov/cr3ctf-2024/tree/main/challenges/web/secretclub/solution",
+        desc: "Use hidden express functionality to bypass internal checks and allow XSS leading to permission manipulation",
+      },
+    ],
+  },
+  {
+    name: "SparkCTF 2024",
     desc: "",
     challenges: [
       {
