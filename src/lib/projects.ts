@@ -15,7 +15,7 @@ export const featuredProjects = [
     name: "CTF Challenges",
     href: "https://github.com/anger/CTF-Challenges",
     desc: "A collection of CTF challenges I've made",
-    aside: "JavaScript, C, Python",
+    aside: "Python, JavaScript, C",
   },
   {
     name: "CTF Scripts",
