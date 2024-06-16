@@ -2,7 +2,7 @@ export const featuredProjects = [
   {
     name: "Voyager.js",
     href: "https://github.com/anger/voyager-js",
-    desc: "Automate the testing for template injection vulnerabilities",
+    desc: "Automate the finding of template injection vulnerabilities",
     aside: "JavaScript",
   },
   {
