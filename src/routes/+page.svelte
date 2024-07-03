@@ -19,7 +19,7 @@
 <div class="layout-md text-lg space-y-5">
   <p>
     Hey there, I'm Jax. I'm a full time <span class="underline-orange">
-      Cyber Security Engineer</span
+      Vulnerability Researcher</span
     >
     who does <span class="underline-orange"> CTFs</span> and
     <span class="underline-orange">security research</span> on the side.
