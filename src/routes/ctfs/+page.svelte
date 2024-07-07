@@ -19,7 +19,7 @@
 
 <div class="layout-md text-lg space-y-5">
   <p>
-    I've been writing CTF challenges for awhile now mainly in the <span
+    I've been writing CTF challenges for awhile now, mainly in the <span
       class="underline-yellow">web</span
     >
     and <span class="underline-yellow">pwn</span> categories, though I do occasionally
