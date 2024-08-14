@@ -22,7 +22,7 @@
       Vulnerability Researcher</span
     >
     who does <span class="underline-orange"> CTFs</span> and
-    <span class="underline-orange">security research</span> on the side.
+    <span class="underline-orange">Security Research</span> on the side.
   </p>
   <div>
     <p>
