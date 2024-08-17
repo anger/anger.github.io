@@ -29,7 +29,7 @@
     <p>
       Please note that some of my challenges are <span class="underline-yellow"
         >private</span
-      > as they were made for work, I've attempted to consolidate those that are
+      > as they were made for work; I've attempted to consolidate those that are
       public here. I greatly enjoy creating challenges that help others learn and
       grow, and I hope you enjoy them too.
     </p>
